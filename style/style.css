@@ -1,3 +1,4 @@
+/* Main Root section (Global Changes) */
 * {
     margin: 0;
     padding: 0;
@@ -27,6 +28,22 @@ a {
 
 ul {
   list-style: none;
+}
+
+.button {
+  padding: 8px 25px;
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.less-rounded {
+  border-radius: 5px;
+  margin: 20px 0px;
+  padding: 10px 25px;
+  font-weight: 100;
 }
 
 /* Header start */
@@ -80,22 +97,9 @@ ul {
   left: 20px;
 }
 
-.button {
-  padding: 8px 25px;
-  background-color: var(--secondary-color);
-  color: white;
-  border: none;
-  border-radius: 20px;
-  font-family: 'Poppins', sans-serif;
-}
+/* Header end */
 
-.less-rounded {
-  border-radius: 5px;
-  margin: 20px 0px;
-  padding: 10px 25px;
-  font-weight: 100;
-}
-
+/* Hero Section Starts */
 .google-play-download-button {
   width: 200px;
   margin: 20px 0px;
@@ -147,6 +151,10 @@ ul {
   justify-content: center;
 }
 
+/* Hero Section Ends */
+
+
+/* Overview Section Start */
 .overview {
   display: flex;
   align-items: center;
@@ -168,6 +176,10 @@ ul {
   font-family: 'Poppins', sans-serif;
 }
 
+/* Overview Section Ends */
+
+
+/* About Section Starts */
 #about {
   display: flex;
   align-items: center;
@@ -214,6 +226,10 @@ ul {
   width: 70%;
 }
 
+/* About Section Ends */
+
+
+/* Features Section Starts */
 #features {
   background-image: url(/assets/features/Features-Background.png);
   background-size: cover;
@@ -275,5 +291,4 @@ ul {
   text-align: end;
 }
 
-  
-  
+/* Features Section Ends */
