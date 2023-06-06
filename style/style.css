@@ -291,4 +291,37 @@ ul {
   text-align: end;
 }
 
+
 /* Features Section Ends */
+
+#app-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+}
+
+
+#screenshot-img {
+  width: 200px;
+}
+
+#app-preview h3 {
+  margin: 20px auto;
+}
+
+table {
+  text-align: center;
+  width: 800px;
+  /* border-collapse: collapse; */
+  margin: auto;
+  font-size: 20px;
+  border-collapse: separate;
+  border-spacing: 6em 2em;
+}
+
+/* App Preview Ends */
+
+/* Footer Starts */
+
